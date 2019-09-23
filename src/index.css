@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.nav__wrapper{
+  display: flex;
+  align-items: center;
+}
+.brandLogo{
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+
+}
+.newNotes__wrapper{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.form__item{
+  margin: 1rem 0;
+}
+
+.notesList__wrapper{
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.noteCard__component-Card{
+  margin: 10px !important;
+  width: 300px;
+}
+
+.login__wrapper{
+  margin: 10px auto;
+  display: block;
+}
+
+.nav__component-menu{
+  width: 100%;
+}
+.btnLogout{
+  position: relative;
+  float: right;
+}
